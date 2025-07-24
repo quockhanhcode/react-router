@@ -81,6 +81,42 @@ export default function Header() {
                 ListMovie
               </NavLink>
             </li>
+            <li>
+              <NavLink
+                to="news"
+                className={({ isActive }) =>
+                  isActive
+                    ? "my-active"
+                    : "block py-2 px-3 text-white rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                }
+              >
+                News
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="login"
+                className={({ isActive }) =>
+                  isActive
+                    ? "my-active"
+                    : "block py-2 px-3 text-white rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                }
+              >
+                Login
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="register"
+                className={({ isActive }) =>
+                  isActive
+                    ? "my-active"
+                    : "block py-2 px-3 text-white rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                }
+              >
+                Register
+              </NavLink>
+            </li>
           </ul>
         </div>
       </div>
